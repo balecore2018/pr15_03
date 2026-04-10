@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView CardList = findViewById(R.id.card_list);
 
         CategoryAdapter CategoryAdapter = new CategoryAdapter(this, Categorys, Click);
-        CardList.setAdapter(CategoryAdapter);
+        CategoryList.setAdapter(CategoryAdapter);
 
         ItemAdapter CardAdapter = new ItemAdapter(this, Items);
         CardList.setAdapter(CardAdapter);

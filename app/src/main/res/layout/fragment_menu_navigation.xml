@@ -41,7 +41,7 @@
         android:layout_height="24dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
-        android:background="@drawable/ic_home"
+        android:background="@drawable/ic_user"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
